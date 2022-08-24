@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get '/articles', to: 'articles#index'
   get '/article/:id', to: 'articles#show'
+  get '/login', to: 'users#login'
   # get '/show_article', to: 'articles#show'
 
 
